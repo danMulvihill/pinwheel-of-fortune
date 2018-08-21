@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+
+ body {
+     
+     background: #222;
+     font-family: Helvetica, Arial, sans-serif;
+     font-size: 1.6rem;
+     min-height: 100vh;
+}
+
+
+
+.container{
+    background: lightblue;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 80%;
+    max-width: 900px;
+    /* margin: 25px auto; */
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.flexed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.righted{
+    justify-content: start;
+}
+#hint{
+    padding-left: 15px;
+    color: red;
+}
+
+
+h1{
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+       
+}
+
+.instruct{
+    color: red;
+    font-weight: bold;
+}
+
+.details{
+    font-size: 0.7em;
+}
+
+.warning{
+    color: yellow;
+}
+.in-the-red{
+    background-color: red;
+    color: white;
+}
+
+.modal{
+    position: absolute;
+    background: yellow;
+    font-weight: bold;
+    padding: 5px;
+    box-shadow: 3px 3px 2px black;
+    display: none;
+}
+.modal span{
+    font-size: 3em;
+    position:absolute;
+    top: 10px;
+    transform: rotate(-35deg)
+}
+
+.pin{
+    text-align: center;
+    font-size: 6rem;
+    color: yellow;
+    text-shadow: 1px 1px darkred;
+    transform: rotate(22deg);
+    transition: all 3s ease-in-out;
+    
+    
+}
+
+.pin:hover{
+    cursor: pointer;
+    color: green;
+    transform: rotate(3000deg);
+
+}
+
+.handle{
+    position: absolute; 
+    left: 15px;
+    top: 65px;
+    width: 3px;
+    height: 90px;
+    transform: translate(22px) rotate(62deg);
+    background: darkgoldenrod;
+
+}
+
+.p{
+    display:none;
+}
+
+
+ p {
+     font-weight: 300;
+     margin-bottom: .8rem;
+}
+
+
+#phrase-board{
+    font-size: 4rem;
+    letter-spacing: 1.4rem;
+    font-weight: bold;
+    font-family: Courier, monospace;
+    line-height: 1.2em;
+
+}
+
+#score{
+    width: 50%;
+    padding: 3px;
+    text-align: center;
+}
+
+
+ .redo {
+     background: orangered;
+     border: none;
+     border-bottom: 2px solid #603a88;
+     border-radius: 3px;
+     cursor: pointer;
+     color: white;
+     font-size: 1.4rem;
+     font-weight: 300;
+     padding: .8rem;
+     transition: background .3s ease, color .3s ease;
+}
+
+ .redo:hover {
+     background: orange;
+}
+
+#tried{
+    visibility: hidden;
+    font-size: 1.4em;
+
+}
+#tried span{
+    color: darkred;
+    /* font-size: 1.2em; */
+    font-weight: bolder;
+}
+
+
+@media (max-width: 700px){
+    .container{
+        margin: 0;
+        width: 100%;
+        top: 0; left: 0;
+        transform: translate(0,0);
+    }
+    body{
+        background: lightblue
+    }
+
+    html{ 
+        font-size: 80%;
+    }
+}

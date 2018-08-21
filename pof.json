@@ -1,0 +1,39 @@
+[
+    {
+        ans: "Don't eat yellow snow",
+        hint: "Childish winter wisdom"
+    },{
+        ans: "Chocolate Chip Cookies",
+        hint: "a sweet treat",
+    },{
+        ans: "Buckingham Palace",
+        hint: "a place"
+    },{
+        ans: "Eleanor Roosevelt",
+        hint: "famous person"
+    },{
+        ans: "George Washington Carver",
+        hint: "famous person"
+    },{
+        ans: "Australian Outback",
+        hint: "a place"
+    },{
+        ans: "Paper, Scissors, Rock",
+        hint: "a handy game"
+    },{
+        ans: "It's raining cats and dogs",
+        hint: "Figurative condition"
+    },{
+        ans: "Genetically Modified Organisms",
+        hint: "conversation starter, if you want a tense debate"
+    },{
+        ans: "Sharknado",
+        hint: "movie title"
+    },{
+        ans: "Mt. Kilimanjaro",
+        hint: "a place"
+    },{
+        ans: "San Francisco",
+        hint: "El pastor de pájaros"
+    }
+]

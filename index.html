@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wheel of Fortune</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="cookies.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+            <div class="modal"><span>&#x2193;</span>Hover over the pinwheel to see it spin</div>
+        <div class="handle"></div>
+         <div class="flexed righted">
+                
+                <p class="pin">&#9883;</p>
+                <h1><span class="p">Pin</span>Wheel of Fortune</h1>
+         </div>
+        <p class="instruct">
+            Press a letter key to guess. 
+        </p>
+        <p class="details">
+            Be careful: wrong guesses will cost you $200. Vowels will cost $100. 
+            If you go below $0, you'll owe us money - and we will remember you after
+            you leave the website.
+        </p>
+        <br>
+        <h4>Your phrase:</h4>
+        <p id="phrase-board"></p>
+        <div class="flexed righted">
+            <h4>Hint: </h4>
+            <h4 id = "hint"></h4>
+        </div>
+        <div class="flexed">
+            <h4 id="score"></h4>
+            <button class="redo">New Game</button>
+        </div>
+        <div id="tried">
+            You tried: <span></span>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
